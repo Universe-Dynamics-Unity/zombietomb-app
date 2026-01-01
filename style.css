@@ -48,7 +48,8 @@
     .tab-content.active { display: flex; }
 
     canvas {
-        max-width: 95%;
-        height: auto;
-        touch-action: none;
-    }
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
